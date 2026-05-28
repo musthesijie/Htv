@@ -1800,7 +1800,8 @@ export const UserMenu: React.FC = () => {
           {/* 分割线 */}
           <div className='my-1 border-t border-gray-200 dark:border-gray-700'></div>
 
-          {/* 版本信息 */}
+          {/* 版本信息（按需隐藏） */}
+          {/*
           <button
             onClick={() => {
               setIsVersionPanelOpen(true);
@@ -1825,6 +1826,7 @@ export const UserMenu: React.FC = () => {
                 )}
             </div>
           </button>
+          */}
         </div>
       </div>
     </>

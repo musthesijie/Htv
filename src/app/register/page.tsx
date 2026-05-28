@@ -404,8 +404,8 @@ function RegisterPageClient() {
         </form>
       </div>
 
-      {/* 版本信息显示 */}
-      <VersionDisplay />
+      {/* 版本信息显示（按需隐藏） */}
+      {/* <VersionDisplay /> */}
     </div>
   );
 }
